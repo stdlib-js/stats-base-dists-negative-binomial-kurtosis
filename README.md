@@ -33,7 +33,7 @@ The [excess kurtosis][kurtosis] for a [negative binomial][negative-binomial-dist
 <!-- <equation class="equation" label="eq:negative_binomial_kurtosis" align="center" raw="\operatorname{Kurt}\left( X \right) = \frac{6}{r} + \frac{(1-p)^{2}}{pr}" alt="Excess kurtosis for a negative binomial distribution."> -->
 
 ```math
-\operatorname{Kurt}\left( X \right) = \frac{6}{r} + \frac{(1-p)^{2}}{pr}
+\mathop{\mathrm{Kurt}}\left( X \right) = \frac{6}{r} + \frac{(1-p)^{2}}{pr}
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\operatorname{Kurt}\left( X \right) = \frac{6}{r} + \frac{(1-p)^{2}}{pr}" data-equation="eq:negative_binomial_kurtosis">
@@ -192,6 +192,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
@@ -234,6 +239,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [umd-url]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-kurtosis/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-kurtosis/tree/esm
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-kurtosis/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-negative-binomial-kurtosis/main/LICENSE
 
 [negative-binomial-distribution]: https://en.wikipedia.org/wiki/Negative_binomial_distribution
 
