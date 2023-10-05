@@ -29,7 +29,7 @@ var kurtosis = require( './../../dist' );
 
 // FIXTURES //
 
-var data = require( './../..lia/data.json' );
+var data = require( './julia/data.json' );
 
 
 // TESTS //
