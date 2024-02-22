@@ -71,6 +71,11 @@ where `r` is the number of successes until experiment is stopped and `p` is the 
 To use in Observable,
 
 ```javascript
+kurtosis = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-kurtosis@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-negative-binomial-kurtosis/tags). For example,
+
+```javascript
 kurtosis = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-kurtosis@v0.2.1-umd/browser.js' )
 ```
 
@@ -83,7 +88,7 @@ var kurtosis = require( 'path/to/vendor/umd/stats-base-dists-negative-binomial-k
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-kurtosis@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-kurtosis@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -160,7 +165,7 @@ v = kurtosis( 20, 1.5 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-kurtosis@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-kurtosis@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
