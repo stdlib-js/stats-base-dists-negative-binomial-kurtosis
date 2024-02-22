@@ -69,6 +69,11 @@ where `r` is the number of successes until experiment is stopped and `p` is the 
 ## Usage
 
 ```javascript
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-kurtosis@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-negative-binomial-kurtosis/tags). For example,
+
+```javascript
 import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-kurtosis@v0.1.1-esm/index.mjs';
 ```
 
@@ -138,7 +143,7 @@ v = kurtosis( 20, 1.5 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-kurtosis@v0.1.1-esm/index.mjs';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-kurtosis@esm/index.mjs';
 
 var v;
 var i;
