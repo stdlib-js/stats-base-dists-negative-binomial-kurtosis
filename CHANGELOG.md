@@ -4,15 +4,25 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-10)
+## Unreleased (2025-05-10)
+
+<section class="features">
+
+### Features
+
+-   [`716a01e`](https://github.com/stdlib-js/stdlib/commit/716a01ebbdd1999ce9c99670432c565d69416397) - add C implementation for `stats/base/dists/negative-binomial/kurtosis` [(#4108)](https://github.com/stdlib-js/stdlib/pull/4108)
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+[#3761](https://github.com/stdlib-js/stdlib/issues/3761), [#4980](https://github.com/stdlib-js/stdlib/issues/4980)
 
 </section>
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`716a01e`](https://github.com/stdlib-js/stdlib/commit/716a01ebbdd1999ce9c99670432c565d69416397) - **feat:** add C implementation for `stats/base/dists/negative-binomial/kurtosis` [(#4108)](https://github.com/stdlib-js/stdlib/pull/4108) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`39f6970`](https://github.com/stdlib-js/stdlib/commit/39f69705826500421b402f732d6a16e204f54dca) - **bench:** refactor random number generation in `stats/base/dists/negative-binomial` [(#5193)](https://github.com/stdlib-js/stdlib/pull/5193) _(by GK Bishnoi)_
 -   [`f75a0ce`](https://github.com/stdlib-js/stdlib/commit/f75a0cef6a3112b166dba04c13bada9763cec350) - **chore:** use excess kurtosis consistently _(by Philipp Burckhardt)_
 
@@ -37,9 +48,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   GK Bishnoi
+-   Manvith M
 -   Philipp Burckhardt
 
 </section>
