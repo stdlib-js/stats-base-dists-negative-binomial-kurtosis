@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-10)
+## Unreleased (2025-07-08)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`8ea46b6`](https://github.com/stdlib-js/stdlib/commit/8ea46b662dc6e27231d250d101e33a3cf770cd77) - **test:** update descriptions to match language used in JS tests _(by Philipp Burckhardt)_
 -   [`716a01e`](https://github.com/stdlib-js/stdlib/commit/716a01ebbdd1999ce9c99670432c565d69416397) - **feat:** add C implementation for `stats/base/dists/negative-binomial/kurtosis` [(#4108)](https://github.com/stdlib-js/stdlib/pull/4108) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`39f6970`](https://github.com/stdlib-js/stdlib/commit/39f69705826500421b402f732d6a16e204f54dca) - **bench:** refactor random number generation in `stats/base/dists/negative-binomial` [(#5193)](https://github.com/stdlib-js/stdlib/pull/5193) _(by GK Bishnoi)_
 -   [`f75a0ce`](https://github.com/stdlib-js/stdlib/commit/f75a0cef6a3112b166dba04c13bada9763cec350) - **chore:** use excess kurtosis consistently _(by Philipp Burckhardt)_
