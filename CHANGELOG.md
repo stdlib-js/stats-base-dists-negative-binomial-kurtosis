@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-13)
+## Unreleased (2025-12-22)
 
 <section class="features">
 
